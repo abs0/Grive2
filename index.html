@@ -35,6 +35,8 @@
 <a name="welcome-to-github-pages" class="anchor" href="#welcome-to-github-pages"><span class="octicon octicon-link"></span></a>Welcome to the Grive2 project homepage! .</h3>
 
 <p>The purpose of this project is to provide an independent open source implementation of Google Drive client for GNU/Linux. The code is written in standard C++. </p>
+<br />
+<p>The source code of Grive is released under GPLv2. </p>
 
 
 
@@ -44,14 +46,17 @@
 <p>Currently as of version 0.1, grive2 can do two-side synchronization between the Google Drive and local directory. It can download and upload changed files. New directories in Google Drive and local directory will also be downloaded/uploaded. </p>
 
 <h3>
-<a name="rather-drive-stick" class="anchor" href="#rather-drive-stick"><span class="octicon octicon-link"></span></a>Rather Drive Stick?</h3>
+<a name="rather-drive-stick" class="anchor" href="#rather-drive-stick"><span class="octicon octicon-link"></span></a>Limitations</h3>
 
-<p>If you prefer to not use the automatic generator, push a branch named <code>gh-pages</code> to your repository to create a page manually. In addition to supporting regular HTML content, GitHub Pages support Jekyll, a simple, blog aware static site generator written by our own Tom Preston-Werner. Jekyll makes it easy to create site-wide headers and footers without having to copy them across every page. It also offers intelligent blog support and other advanced templating features.</p>
+<p>The following features are not planned to be supported in the near future. The main reason is that Google Drive supports much more features than a local file system. It is not easy/feasible/practical to mimic everything in Google Drive to a directory in a computer. </p>
+<h4>Folders/Files with multiple parents</h4>
+
+<p>The structure of a Google Drive is not exactly organized in a hierarchy. It is more similar to an interconnected net attached to a single root point (quoted from the API reference). Obviously the files and directories in the file system have only one parent. Therefore, this feature cannot be implemented very easily. </p>
 
 <h3>
 <a name="authors-and-contributors" class="anchor" href="#authors-and-contributors"><span class="octicon octicon-link"></span></a>Authors and Contributors</h3>
 
-<p>You can <a href="https://github.com/blog/821" class="user-mention">@mention</a> a GitHub username to generate a link to their profile. The resulting <code>&lt;a&gt;</code> element will link to the contributor's GitHub Profile. For example: In 2007, Chris Wanstrath (<a href="https://github.com/defunkt" class="user-mention">@defunkt</a>), PJ Hyett (<a href="https://github.com/pjhyett" class="user-mention">@pjhyett</a>), and Tom Preston-Werner (<a href="https://github.com/mojombo" class="user-mention">@mojombo</a>) founded GitHub.</p>
+<p>Chris Wanstrath (<a href="https://github.com/defunkt" class="user-mention">@defunkt</a>)</p>
 
 <h3>
 <a name="support-or-contact" class="anchor" href="#support-or-contact"><span class="octicon octicon-link"></span></a>Support or Contact</h3>
